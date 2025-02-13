@@ -1,9 +1,14 @@
 import React from "react";
+import TodoItems from "./components/TodoItems/TodoItems";
+import Todos from "./components/Todos/Todos";
 function App() {
   return (
-    <div className="bg-blue-500 text-white p-4 text-center">
-      <h1>hey, this is divyanshi</h1>
-    </div>
+    <>
+    
+    <Todos/>
+    <TodoItems/>
+
+    </>
   );
 }
 
